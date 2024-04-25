@@ -1,10 +1,5 @@
 function longestSubstring(s) {
     // Implementation of longestSubstring function
-}
-
-module.exports = { longestSubstring };
-
-function lengthOfLongestSubstring(s) {
     let maxLength = 0;
     let start = 0;
     const charIndexMap = {};
@@ -20,3 +15,7 @@ function lengthOfLongestSubstring(s) {
 
     return maxLength;
 }
+
+module.exports = { longestSubstring };
+
+
